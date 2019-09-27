@@ -6,7 +6,5 @@ main() {
 // Đảm bảo một đối tượng khác null
 // assert(myobject != null);
 
-// Đảm bảo số lớn hơn 100
-var number = 101;
-
+// assert sẽ log lỗi lên hệ thống Dev Tool của Flutter
 }
