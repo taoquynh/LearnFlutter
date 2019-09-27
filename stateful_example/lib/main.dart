@@ -4,7 +4,7 @@ import 'package:english_words/english_words.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  // Widget này là root của ứng dụng
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,6 +23,7 @@ class RandomWords extends StatefulWidget {
 }
 
 class RandomWordsState extends State<RandomWords> {
+  // WordPair là class trong thư viện english_world:
   final List<WordPair> _words = <WordPair>[];
   final _biggerFont = const TextStyle(fontSize: 18.0);
   final Set<WordPair> _saved = new Set<WordPair>();
@@ -38,6 +39,7 @@ class RandomWordsState extends State<RandomWords> {
       body: Center(child: ListView.builder(itemBuilder: (context, index) {
         if (index.isOdd) return Divider();
 
+        // generate 10 từ tiếp theo bất kì khi đã cuộn hết phần nội dung sẵn sàng 
         if (index >= _words.length) {
           _words.addAll(generateWordPairs().take(10));
         }
