@@ -8,11 +8,11 @@
     - Thêm image bạn dùng vào thư mục images
     - Sửa file pubspec.yaml
 
-    ```
+```
     flutter:
     assets:
     - assets/images/
-    ```
+```
 
-    - Xem hình:
-    ![Hyper-V-1](./img/02_signin_page/add_anh.png)
+Xem hình:
+![Hyper-V-1](./img/02_signin_page/add_anh.png)
