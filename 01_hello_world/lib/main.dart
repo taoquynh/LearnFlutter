@@ -23,14 +23,14 @@ class HelloWorld extends StatelessWidget {
           'Hello World',
           style: TextStyle(fontSize: 24),
         ),
-        // backgroundColor: Colors.indigo,
+        backgroundColor: Colors.teal,
       ),
       body: Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
-                colors: [Colors.purple, Colors.teal])),
+                colors: [Colors.teal, Colors.blue])),
                 child: Center( 
                   child: Text('Chào thế giới!', style: TextStyle(fontSize: 40, color: Colors.white),),
                 ),
