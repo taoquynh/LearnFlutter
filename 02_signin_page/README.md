@@ -15,4 +15,4 @@
 ```
 
 Xem hình:
-![Hyper-V-1](./img/02_signin_page/add_anh.png)
+![Hyper-V-1](../img/add_anh.png)
