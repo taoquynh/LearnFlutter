@@ -18,13 +18,6 @@ class HelloWorld extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'Hello World',
-          style: TextStyle(fontSize: 24),
-        ),
-        backgroundColor: Colors.teal,
-      ),
       body: Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -32,7 +25,7 @@ class HelloWorld extends StatelessWidget {
                 end: Alignment.bottomRight,
                 colors: [Colors.teal, Colors.blue])),
                 child: Center( 
-                  child: Text('Chào thế giới!', style: TextStyle(fontSize: 40, color: Colors.white),),
+                  child: Text('Hello World!', style: TextStyle(fontSize: 40, color: Colors.white),),
                 ),
       ),
     );
