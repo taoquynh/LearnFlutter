@@ -1,5 +1,9 @@
 # demo_list_view
 
+## Tap vào các row để xem chi tiết ví dụ về ListView
+
+![Hyper-V-3](../img/listView.png)
+
 ## Static List View 1
 
 - Sử dụng ListTile() trả về các trường hiển thị dạng list
@@ -55,3 +59,13 @@
 ## Update List View Data
 
 - Nhấn vào phần tử để thêm
+
+# Tổng kết
+
+- ListView trong Flutter là một danh sách tuyến tính của các mục có thể cuộn
+- ListView có thể hiển thị theo chiều dọc, hoặc ngang
+- Các loại ListView thường dùng:
+    - ListView()
+    - ListView.builder()
+    - ListView.separated()
+    - ListView.custom()
