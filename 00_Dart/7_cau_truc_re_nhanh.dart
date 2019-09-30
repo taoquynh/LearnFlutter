@@ -1,23 +1,30 @@
 main() {
   // if ... eles
-  /*
-  dạng 1 : 
-  if (biểu_thức) {
-    Viết lệnh chạy khi biểu_thức là true
-   }
   
+  // dạng 1 : 
+  // if (biểu_thức) {
+  //   do somthing
+  //  }
+  // ví dụ:
+  var x = 20;
+  if (20 % 2 == 0){
+    print('$x là số chẵn');
+  } else {
+    print('$x là số lẻ');
+  }
+  /*
   dạng 2:
   if (biểu_thức) {
     //Viết lệnh chạy khi biểu_thức là true
   } else {
       //Viết lệnh chạy khi biểu thức là false
   }
-  //CÓ THỂ VIẾT NHIỀU LỆNH IF
+  */
+  /* 
+  CÓ THỂ VIẾT NHIỀU LỆNH IF
   if (biểu_thức_1) {
       //..Các câu lệnh
   } else if (biểu_thức_2) {
-      //Các câu lệnh
-  } else if (biểu_thức_3) {
       //Các câu lệnh
   } else {
       //Các câu lệnh
@@ -25,28 +32,39 @@ main() {
   */
   // ví dụ:
   var a = 12;
-  if (a < 10) {
-    print('a nhỏ hơn 10');
-  } else if (a < 8) {
-    print('a nhỏ hơn 8');
+  if (a == 0) {
+    print('a bằng 0');
+  } else if (a < 0) {
+    print('a là số dương');
   } else {
-    print('a lớn hơn hoặc bằng 10');
+    print('a là số âm');
   }
 
   // Switch case
   var t = 0;
   switch (t) {
     case 0:
-      print('Chủ Nhật');
+      print('Trời nắng');
       break;
-
     case 1:
-      print('Thứ 2');
+      print('Trời mưa');
       break;
-
     default:
       print('Không có giá trị nào');
   }
+/*
+  switch (biểu_thức) {
+    case : giá_trị_1
+      // Khối lệnh
+      break;
+    case : giá_trị_2
+      //Khối lệnh
+    break;
+
+    default:
+      //Khối lệnh mặc định
+}
+*/
 
   // vòng lặp for
   // đầy đủ 3 statement
@@ -60,11 +78,18 @@ main() {
     print(i);
   }
 
-// bỏ qua statement2, 3
+// tương tự có thể bỏ qua statement2, 3
   var k = 0;
   for (;; k += 2) {
     if (k > 10) break;
     print(k);
+  }
+
+  // tương tự có thể bỏ qua statement2, 3
+  for (;;) {
+    if (k > 10){break;}
+    k++;
+    print('--$k');
   }
 
   // vòng lặp while
