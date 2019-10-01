@@ -14,8 +14,7 @@ main() {
   print(info);
 
   var table = new Table(500);
-  print(table.name);
-  table.showToTal();
+  table.showToTal(); // Tổng tiền là: 500
 
 }
 
