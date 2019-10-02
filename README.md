@@ -9,10 +9,20 @@
 	- Chạm màn hình
 ## 04_demo_list_view
 	- Các ví dụ sử dụng listview
+## 05_login_demo
+	- Giao diện login, register
+## 06_compare_stateless_stateful
+	- so sánh statelesss, stateful
+## 07_animate_page_route
+	- Chuyển màn sử dụng Tween
+## 08_ball_jump
+	- Thả rơi quả bóng 
+## 09_stateful_example
+	- Ví dụ statefull, truyền dữ liệu
 ## flutter_implicit_animations
 	- Project clone: animated, cross fade, padding, opacity,
-## stateful_example
-	- Random ra một list các từ tiếng anh, có icon favorite để chọn, dùng navigator để push màn
+## img
+	- Thư mục lưu ảnh cho README.md
 ## LinhTinh
 	- Thư mục Linh Tinh chứa các mẹo khi làm việc với Flutter
 
