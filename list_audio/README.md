@@ -43,10 +43,10 @@ import 'package:audioplayers/audioplayers.dart';
   }
 ```
 <td>
-  <img src = "./img/danh_sach_audio.png" width="300">
+  <img src = "../img/danh_sach_audio.png" width="300">
 </td>
 <td>
-  <img src = "./img/nghe_audio.png" width="300">
+  <img src = "../img/nghe_audio.png" width="300">
 </td>
 </tr>
   </table>
