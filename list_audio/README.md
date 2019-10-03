@@ -42,6 +42,7 @@ import 'package:audioplayers/audioplayers.dart';
     await audioPlayer.stop();
   }
 ```
+<table>
 <td>
   <img src = "../img/danh_sach_audio.png" width="300">
 </td>
@@ -49,5 +50,5 @@ import 'package:audioplayers/audioplayers.dart';
   <img src = "../img/nghe_audio.png" width="300">
 </td>
 </tr>
-  </table>
+</table>
 
