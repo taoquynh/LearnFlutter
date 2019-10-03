@@ -26,3 +26,8 @@ dispose(){
   super.dispose();
 }
 ```
+
+## Parse JSON - utf8
+```
+.fromJson(json.decode(utf8.decode(response.bodyBytes)));
+```
