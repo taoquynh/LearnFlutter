@@ -3,7 +3,7 @@
 Ứng dụng nghe truyện online
 
 - Lấy dữ liệu từ API:
-Cấu trúc dữ liệu như sau:
+	- Cấu trúc dữ liệu như sau:
 ```
 {
 	"resultCount": 10,
@@ -31,7 +31,10 @@ Cấu trúc dữ liệu như sau:
 ```
 - Sử dụng thư viện audioplayers để tương tác với audio
 ```
+// import thư viện
 import 'package:audioplayers/audioplayers.dart';
+
+  // khởi tạo một biến audioPlayer
   AudioPlayer audioPlayer = AudioPlayer();
 
   play() async {
