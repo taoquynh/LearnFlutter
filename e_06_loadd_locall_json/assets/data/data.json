@@ -1,0 +1,82 @@
+[
+    {
+    "index": 1,
+    "name": "Maureen",
+    "height": 167.0196,
+    "mass": 58.504,
+    "address": "undefined",
+    "email": "veronica@case.ee"
+    },
+    {
+    "index": 2,
+    "name": "Sherri",
+    "height": 152.8182,
+    "mass": 77.6364,
+    "address": "undefined",
+    "email": "gayle@chung.cw"
+    },
+    {
+    "index": 3,
+    "name": "Hannah",
+    "height": 161.0468,
+    "mass": 76.5088,
+    "address": "undefined",
+    "email": "claude@walton.gd"
+    },
+    {
+    "index": 4,
+    "name": "Gladys",
+    "height": 160.7571,
+    "mass": 59.807,
+    "address": "undefined",
+    "email": "randall@lynn.lv"
+    },
+    {
+    "index": 5,
+    "name": "Joel",
+    "height": 183.1617,
+    "mass": 68.7103,
+    "address": "undefined",
+    "email": "louis@stanley.bt"
+    },
+    {
+    "index": 6,
+    "name": "Ricky",
+    "height": 179.4888,
+    "mass": 57.8143,
+    "address": "undefined",
+    "email": "catherine@fox.hk"
+    },
+    {
+    "index": 7,
+    "name": "Oscar",
+    "height": 159.5738,
+    "mass": 51.7124,
+    "address": "undefined",
+    "email": "brett@glover.sz"
+    },
+    {
+    "index": 8,
+    "name": "Milton",
+    "height": 174.7464,
+    "mass": 77.016,
+    "address": "undefined",
+    "email": "steve@chen.sd"
+    },
+    {
+    "index": 9,
+    "name": "Caroline",
+    "height": 155.4411,
+    "mass": 78.9344,
+    "address": "undefined",
+    "email": "douglas@pierce.bw"
+    },
+    {
+    "index": 10,
+    "name": "Kathy",
+    "height": 188.1599,
+    "mass": 75.3512,
+    "address": "undefined",
+    "email": "kyle@jennings.as"
+    }
+    ]
