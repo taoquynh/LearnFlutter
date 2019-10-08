@@ -35,24 +35,24 @@ class _LoadLocalJson extends State<LoadLocalJson>{
               .loadString('assets/data/data.json'),
             builder: (context, snapshot){
               // Decode JSON
-              var new_data = json.decode(snapshot.data.toString());
+              var newData = json.decode(snapshot.data.toString());
               return ListView.builder(
                 itemBuilder: (BuildContext context, int index){
                   return Card( 
                     child: Column( 
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: <Widget>[
-                        Text('Index: ' + new_data[index]['index'].toString()),
-                        Text('Name: ' + new_data[index]['name']),
-                        Text('Height: ' + new_data[index]['height'].toString()),
-                        Text('Mass: ' + new_data[index]['mass'].toString()),
-                        Text('Address: ' + new_data[index]['address']),
-                        Text('Email: ' + new_data[index]['email'])
+                        Text('Index: ' + newData[index]['index'].toString()),
+                        Text('Name: ' + newData[index]['name']),
+                        Text('Height: ' + newData[index]['height'].toString()),
+                        Text('Mass: ' + newData[index]['mass'].toString()),
+                        Text('Address: ' + newData[index]['address']),
+                        Text('Email: ' + newData[index]['email'])
                       ],
                     ),
                   );
                 },
-                itemCount: new_data == null ? 0 : new_data.length,
+                itemCount: newData == null ? 0 : newData.length,
               );
             },
           ),
