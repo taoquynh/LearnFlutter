@@ -41,7 +41,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSPhotoLibraryAddUsageDescription</key>
+	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Yêu cầu truy cập thư viện ảnh khi sử dụng ứng dụng</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Yêu cầu truy cập camera khi sử dụng ứng dụng</string>

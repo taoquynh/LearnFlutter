@@ -23,14 +23,14 @@ class ImagePickerApp extends StatefulWidget{
 class _ImagePickerApp extends State<ImagePickerApp>{
   File _image;
   Future getImage() async{
-    var image = await ImagePicker.pickImage(source: ImageSource.camera);
+    var image = await ImagePicker.pickImage(source: ImageSource.gallery);
     setState(() {
       image = _image;
     });
   }
   picker() async {
     print("Picker is called");
-      File img = await ImagePicker.pickImage(source: ImageSource.gallery);
+      File img = await ImagePicker.pickImage(source: ImageSource.camera);
       print(img.path);
     setState(() {
       _image = img;
