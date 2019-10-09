@@ -31,3 +31,14 @@ dispose(){
 ```
 .fromJson(json.decode(utf8.decode(response.bodyBytes)));
 ```
+
+## Plaform iOS - Android
+```
+import 'dart:io' show Platform;
+
+if (Platform.isAndroid) {
+  // Android-specific code
+} else if (Platform.isIOS) {
+  // iOS-specific code
+}
+```
