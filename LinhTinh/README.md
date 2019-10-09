@@ -42,3 +42,8 @@ if (Platform.isAndroid) {
   // iOS-specific code
 }
 ```
+
+## encode UTF-8
+```
+&encode=UTF-8
+```
