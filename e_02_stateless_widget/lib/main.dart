@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget{
             'Airport Shuttle',
             style: myTextStyle,
           ),
-          icon: Icon(Icons.alarm, size: myIconSize, color: Colors.amber,),
+          icon: Icon(Icons.airport_shuttle, size: myIconSize, color: Colors.amber,),
         ),
         MyCard(
             title: Text(
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget{
     );
     return Scaffold(
       appBar: AppBar( 
-        title: Text('Stateless Widget'),
+        title: Text('My Card'),
       ),
       body: column,
     );

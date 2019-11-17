@@ -40,7 +40,7 @@ class MyHome extends StatelessWidget{
             // sử dụng theme accent color như background color cho widget con này
             color: Theme.of(context).accentColor,
             child: Text( 
-              'Hello World!',
+              'Theme',
               // style: Theme.of(context).textTheme.title, // đặt kiểu văn bản theo theme
               style: TextStyle( 
                 color: Theme.of(context).textTheme.title.color,
@@ -52,13 +52,14 @@ class MyHome extends StatelessWidget{
       ),
       floatingActionButton: Theme( 
         data: Theme.of(context).copyWith(
-          colorScheme: Theme.of(context).colorScheme.copyWith(secondary: Colors.red),
+          colorScheme: Theme.of(context).colorScheme.copyWith(secondary: Colors.teal),
         ),
         child: FloatingActionButton(
-          child: Icon(Icons.adb, color: Colors.white,),
+          child: Icon(Icons.add_to_queue, color: Colors.white,),
           onPressed: null,
         ),
       ),
     );
   }
 }
+
