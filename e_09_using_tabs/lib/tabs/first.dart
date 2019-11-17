@@ -9,7 +9,7 @@ class First extends StatelessWidget{
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Icon( 
-              Icons.favorite,
+              Icons.bug_report,
               size: 160,
               color: Colors.red,
             ),

@@ -41,10 +41,12 @@ class MyHomeState extends State<MyHome> with SingleTickerProviderStateMixin {
     return TabBar( 
       tabs: <Widget>[
         Tab( 
-          icon: Icon(Icons.favorite), // set icon cho tab
+          icon: Icon(Icons.bug_report),
+          text: 'Chưa xử lý', // set icon cho tab
         ),
         Tab(
           icon: Icon(Icons.adb),
+          text: 'Đã xử lý',
         ),
         Tab(
           icon: Icon(Icons.airport_shuttle),
