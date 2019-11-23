@@ -1,7 +1,7 @@
 /*
 Xây dựng lớp Candidate (Thí sinh) gồm các thuộc tính: mã, tên, điểm thi Toán, Văn, Anh và các phương thức cần thiết.
 Xây dựng lớp TestCandidate để kiểm tra lớp trên:
-- Nhập vào n thí sinh (n do người dùng nhập)
+- Tạo ít nhất 3 đối tượng Candidate
 - In ra thông tin về các thí sinh có tổng điểm lớn hơn 15
 */
 
@@ -29,9 +29,10 @@ void main(){
 
   List<Candidate> candidates = new List();
   candidates.addAll([candidate1, candidate2]);
+
   candidates.forEach( (item){
     if (item.tongDiem() > 15.0){
-      print(item.name);
+      print('Mã code: ${item.code}, tên: ${item.name}');
     }
   });
 }

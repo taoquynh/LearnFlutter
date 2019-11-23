@@ -30,8 +30,7 @@ Widget myLatyouWidget() {
                     'STATELESS WIDGET',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 18
-                    
+                    fontSize: 18    
                   ),
                 ),
               ],
@@ -43,7 +42,7 @@ Widget myLatyouWidget() {
                 vertical: 16.0,
                 horizontal: 0,
               ),
-              child: Text('StatelessWidget là một Widget không có trạng thái, nó chỉ được render một lần khi khởi chạy app. StatelessWidget đơn thuần là nhận dữ liệu và hiển thị dữ liệu một cách thụ động',
+              child: Text('This StatelessWidget là một Widget không có trạng thái, nó chỉ được render một lần khi khởi chạy app. StatelessWidget đơn thuần là nhận dữ liệu và hiển thị dữ liệu một cách thụ động',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 16
