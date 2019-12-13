@@ -22,13 +22,13 @@ class ImagePickerApp extends StatefulWidget{
 
 class _ImagePickerApp extends State<ImagePickerApp>{
   File _image;
-  Future getImage() async{
-    var image = await ImagePicker.pickImage(source: ImageSource.gallery);
+  Future getImageFromGallery() async {
+    File image = await ImagePicker.pickImage(source: ImageSource.gallery);
     setState(() {
-      image = _image;
+      _image = image;
     });
   }
-  picker() async {
+  Future getImageFromCamera() async {
     print("Picker is called");
       File img = await ImagePicker.pickImage(source: ImageSource.camera);
       print(img.path);
@@ -36,6 +36,7 @@ class _ImagePickerApp extends State<ImagePickerApp>{
       _image = img;
     });
   }
+  
   @override 
   Widget build(BuildContext context){
     return new Scaffold(
@@ -48,7 +49,7 @@ class _ImagePickerApp extends State<ImagePickerApp>{
           ),
         ),
         floatingActionButton: new FloatingActionButton(
-          onPressed: picker,
+          onPressed: getImageFromCamera,
           child: new Icon(Icons.camera),
         ),
       );

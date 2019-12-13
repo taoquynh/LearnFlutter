@@ -51,7 +51,7 @@ class _MyGetData extends State<MyGetData>{
   @override
   void initState(){
     super.initState();
-    // gọi phương thức getJSONData thì ứng dụng khởi chạy
+    // gọi phương thức getJSONData
     this.getJSONData();
   }
   @override 

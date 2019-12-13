@@ -2,7 +2,6 @@ import 'package:demo_list_view/model/menu.dart';
 import 'package:flutter/material.dart';
 import 'screens.dart';
 
-
 class ListViewDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

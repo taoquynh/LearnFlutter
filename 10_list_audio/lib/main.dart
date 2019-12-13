@@ -26,6 +26,7 @@ class ItemAudio{
   final String audioURL;
 
   ItemAudio({this.id, this.name, this.description, this.audioURL});
+  
   factory ItemAudio.fromJson(Map<String, dynamic> json){
     return ItemAudio( 
       id: json['id'],
@@ -39,7 +40,7 @@ class ItemAudio{
 void main() => runApp(MyApp());
 
 Future<ListAudio> fetchPost() async {
-    final response = await http.get('http://45.118.145.142:2015/audio.json');
+    final response = await http.get('http://150.95.113.189:2015/audio.json');
 
   if (response.statusCode == 200) {
     // If the call to the server was successful, parse the JSON.
@@ -82,7 +83,6 @@ class _HomeScreen extends State<HomeScreen> {
       future: listAudio,
       builder: (context, snapshot) {
         if (snapshot.hasData) {
-          // listAudio = snapshot.data.;
           return ListView.builder(
         itemCount: snapshot.data.results.length,
         itemBuilder: (context, index) {

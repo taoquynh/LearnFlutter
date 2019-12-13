@@ -16,6 +16,7 @@ class _DetailScreen extends State<DetailScreen> {
   AudioPlayer audioPlayer = AudioPlayer();
 
   play() async {
+    print('${widget.audio.audioURL}');
     await audioPlayer.play(widget.audio.audioURL);
   }
 
